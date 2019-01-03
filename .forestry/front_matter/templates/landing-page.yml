@@ -18,16 +18,6 @@ fields:
   name: sub_heading
   label: Hero Sub heading
   default: Engineering and Health Sciences
-- type: field_group
-  name: hero_button
-  label: Hero Button
-  fields:
-  - type: text
-    name: text
-    label: Text
-  - type: text
-    name: href
-    label: Link
 - name: services
   label: Services
   type: field_group_list
@@ -49,6 +39,16 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: field_group
+  name: hero_button
+  label: Hero Button
+  fields:
+  - type: text
+    name: text
+    label: Text
+  - type: text
+    name: href
+    label: Link
 - type: file
   name: banner_image
   label: Hero Image
