@@ -10,7 +10,7 @@ partners:
 services:
 - heading: Tests
   description: Just a test.
-  icon: ''
+  icon: "/uploads/2019/01/03/awrukufc161y.jpg"
 - description: Performing collaborative research and providing services to support
     the Health Sector.
   heading: Health
