@@ -10,27 +10,6 @@ fields:
   default: ''
   config:
     required: true
-- name: services
-  label: Services
-  type: field_group_list
-  fields:
-  - name: heading
-    label: Heading
-    type: text
-    hidden: false
-    default: ''
-  - name: description
-    label: Description
-    type: text
-    hidden: false
-    default: ''
-  - name: icon
-    label: Icon
-    type: file
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
 - type: text
   label: Hero Heading
   name: heading
@@ -63,6 +42,32 @@ fields:
     required: false
     schema:
       format: markdown
+- name: services
+  label: Services
+  type: field_group_list
+  fields:
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: text
+    hidden: false
+    default: ''
+  - name: icon
+    label: Icon
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+  config: {}
+- type: boolean
+  name: show_services
+  label: Show Services
+  description: Decide whether you want the services or not.
 - type: boolean
   name: show_news
   label: Show News?
