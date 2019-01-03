@@ -28,20 +28,6 @@ fields:
   - type: text
     name: href
     label: Link
-- type: file
-  name: banner_image
-  label: Hero Image
-  description: 'Dimensions: 1200px by 580px'
-  config:
-    maxSize: '2'
-- type: textarea
-  name: textline
-  label: Description
-  config:
-    wysiwyg: true
-    required: false
-    schema:
-      format: markdown
 - name: services
   label: Services
   type: field_group_list
@@ -63,6 +49,20 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: file
+  name: banner_image
+  label: Hero Image
+  description: 'Dimensions: 1200px by 580px'
+  config:
+    maxSize: '2'
+- type: textarea
+  name: textline
+  label: Description
+  config:
+    wysiwyg: true
+    required: false
+    schema:
+      format: markdown
 - type: boolean
   name: show_news
   label: Show News?
