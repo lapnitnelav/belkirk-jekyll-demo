@@ -1,16 +1,24 @@
 ---
-title: Example Draft
+title: Is a test
 layout: post
 date: 2018-01-19 00:00:00 +0000
 sub_heading: ''
 tags: []
 related_posts: []
+banner_image: "/uploads/2019/01/03/awrukufc161y.jpg"
 
 ---
-## What are draft posts?
+## That's a test of a post.
 
-This is an example of a draft post. Draft posts aren't included when publishing your site.
+This seems pretty straightforward to use.
 
-This is great for authoring work in progress content, or hiding content that shouldn't be available at the current time.
+Can you paste code and the likes?
 
-![](/uploads/2018/02/17/building.jpg)
+    foo' = foo . x = velocity.length
+               . y = 0
+               . z = 0
+
+_Yup, brilliant_
+
+* Test list
+* Item following
