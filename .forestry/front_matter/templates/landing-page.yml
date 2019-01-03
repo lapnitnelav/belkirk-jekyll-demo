@@ -10,14 +10,6 @@ fields:
   default: ''
   config:
     required: true
-- type: text
-  label: Hero Heading
-  name: heading
-  default: Belkirk College
-- type: text
-  name: sub_heading
-  label: Hero Sub heading
-  default: Engineering and Health Sciences
 - name: services
   label: Services
   type: field_group_list
@@ -39,6 +31,14 @@ fields:
     default: ''
   hidden: false
   default: ''
+- type: text
+  label: Hero Heading
+  name: heading
+  default: Belkirk College
+- type: text
+  name: sub_heading
+  label: Hero Sub heading
+  default: Engineering and Health Sciences
 - type: field_group
   name: hero_button
   label: Hero Button
